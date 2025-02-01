@@ -74,6 +74,7 @@ sudo tcpdump -i <interface> -w capture.pcap
 To replay a PCAP file:
 ```
 sudo tcpreplay -i <interface> capture.pcap
+sudo tcpreplay -i <interface> --mbps=100 capture.pcap   #to increase replay speed
 ```
 
 ## Output
